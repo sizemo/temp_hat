@@ -28,3 +28,19 @@ I've got it set to record the temperature every 60 seconds because I'm planning 
 Press the reset button again without grounding the A0 pin, or remove the power source.
 
 ## Checking the data
+Plug it back in after getting out of the data logging mode. All of the data should be recorded in `temperature.txt`. I have it set up to just log temperature in Fahrenheit, humidity percentage, and time since the start of the recording. I have pressure in the code but decided not to log it.
+
+You should be able to use that file as a csv for analysis.
+
+# Outstanding issues
+### Temperature is precise but not accurate
+Because the temperature sensor is right next to the CPU, when the CPU heats up, the sensor reads incorrectly high temperatures. I got this particular board because I thought it would be easier to not use an external module, but that does not seem like it's going to be something I can rely on without modifications.
+
+I see two possible paths:
+  1. Use a static correction variable in the code to reduce the temperature that gets written to `temperature.txt` is more correct.
+  2. Connect an external BME280 to the Feather via the JST port and pull the readings from there.
+
+I'd prefer to use an external sensor because it's probably more correct in different environments and that's the point of this whole project.
+
+### It's supposed to clip to a hat and there's nothing about that in here yet
+Okay yeah, still working on that. I want to get the code working before I strap this thing to a tie clip or binder clip or something.
