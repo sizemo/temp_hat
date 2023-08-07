@@ -61,3 +61,4 @@ A couple of resources I pulled heavily from in putting this together:
 1. [@crwilcox](https://github.com/crwilcox)'s writeup of his [similar project](https://chriswilcox.dev/blog/2020/11/17/Collecting-temperature-data-with-CircuitPython.html) with a different board
 2. [The official Adafruit product guide](https://learn.adafruit.com/adafruit-esp32-s2-feather/storage)
 3. I'm not really sure who's responsible, but whoever [created](https://github.com/tuupola/circuitpython/blob/master/examples/SDdatalogger/boot.py) nearly the only `boot.py` on the internet that doesn't use grounding a pin as a mode switcher, which helped me understand how the whole thing worked. I might try a variation of this in a later version and I never would have understood how to do it without this.
+4. Last but not least, [@herumph](https://github.com/herumph) for getting me interested in all of this mess and letting me barrage him with project updates all the time.
