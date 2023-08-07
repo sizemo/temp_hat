@@ -45,3 +45,10 @@ I'd prefer to use an external sensor because it's probably more correct in diffe
 
 ### It's supposed to clip to a hat and there's nothing about that in here yet
 Okay yeah, still working on that. I want to get the code working before I strap this thing to a tie clip or binder clip or something.
+
+# Thank Yous
+
+A couple of resources I pulled heavily from in putting this together:
+1. [@crwilcox](https://github.com/crwilcox)'s writeup of his [similar project](https://chriswilcox.dev/blog/2020/11/17/Collecting-temperature-data-with-CircuitPython.html) with a different board
+2. [The official Adafruit product guide](https://learn.adafruit.com/adafruit-esp32-s2-feather/storage)
+3. I'm not really sure who's responsible, but whoever [created](https://github.com/tuupola/circuitpython/blob/master/examples/SDdatalogger/boot.py) nearly the only `boot.py` on the internet that doesn't use grounding a pin as a mode switcher, which helped me understand how the whole thing worked. I might try a variation of this in a later version and I never would have understood how to do it without this.
