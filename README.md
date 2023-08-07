@@ -7,7 +7,7 @@ Official weather measurements are supposed to be taken in the shade. When your w
 
 ## Hardware
 * [Adafruit ESP32-S2 Feather with BME280](https://www.adafruit.com/product/5303)
-* Some kind of Adafruit-compatible LiPo battery (ex: https://www.microcenter.com/product/503621/adafruit-industries-lithium-ion-battery-37v-2000mah)
+* Some kind of Adafruit-compatible LiPo battery ([I picked this one up locally at Microcenter](https://www.microcenter.com/product/503621/adafruit-industries-lithium-ion-battery-37v-2000mah))
 
 ## Steps
 1. [Follow these steps to flash the board with the bootloader](https://learn.adafruit.com/adafruit-esp32-s2-feather/install-uf2-bootloader)
