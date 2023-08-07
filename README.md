@@ -43,8 +43,18 @@ I see two possible paths:
 
 I'd prefer to use an external sensor because it's probably more correct in different environments and that's the point of this whole project.
 
-### It's supposed to clip to a hat and there's nothing about that in here yet
-Okay yeah, still working on that. I want to get the code working before I strap this thing to a tie clip or binder clip or something.
+### It's supposed to clip to a hat and there's nothing about that in here yet.
+Okay yeah, still working on that. I want to get the code working and decide whether or not to use an external BME280 before I strap this thing to a tie clip or binder clip or something.
+
+# Roadmap
+
+1. (a) Run comparisons to DHT11 connected to Flipper Zero in direct sunlight, in shade, and inside and see if a static correction variable solution could work.
+1. (b) Rewrite code for an external BME280 sensor instead of the onboard one.
+2. Design the actual hat clip mechanism. (v 1.0)
+3. Add heat index feature
+4. Add WiFi data transfer ([resource](https://www.hackster.io/robin-cole/data-logging-zero-to-hero-with-circuitpython-and-mqtt-05af61))
+5. Figure out how to overlay sensor data with a GPX/FIT/TCX file
+6. Hardware update with possible: mode switch button, start/stop button, SD card for longer logs, GPS chip, eInk screen, different battery option if necessary. (v 2.0)
 
 # Thank Yous
 
