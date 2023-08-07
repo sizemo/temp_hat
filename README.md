@@ -12,4 +12,8 @@ Official weather measurements are supposed to be taken in the shade. When your w
 ## Steps
 1. [Follow these steps to flash the board with the bootloader](https://learn.adafruit.com/adafruit-esp32-s2-feather/install-uf2-bootloader)
 2. [You should probably download the Mu editor if you don't already have it](https://learn.adafruit.com/adafruit-esp32-s2-feather/installing-mu-editor)
-3. 
+3. [You could also read this if you want to understand the basics of how to update the files on the board](https://learn.adafruit.com/adafruit-esp32-s2-feather/the-circuitpy-drive)
+4. Make sure the board is plugged in and showing up as CIRCUITPY in your computer. Copy `boot.py` over from this repo and then either replace the `code.py` file with the one from here or copy and paste the code from that file in this repo into the existing `code.py` file on the board.
+
+## Start logging data
+
