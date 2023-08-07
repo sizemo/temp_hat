@@ -33,6 +33,7 @@ Plug it back in after getting out of the data logging mode. All of the data shou
 You should be able to use that file as a csv for analysis.
 
 # Outstanding issues
+
 ### Temperature is precise but not accurate
 Because the temperature sensor is right next to the CPU, when the CPU heats up, the sensor reads incorrectly high temperatures. I got this particular board because I thought it would be easier to not use an external module, but that does not seem like it's going to be something I can rely on without modifications.
 
