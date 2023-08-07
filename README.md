@@ -48,8 +48,7 @@ Okay yeah, still working on that. I want to get the code working and decide whet
 
 # Roadmap
 
-1. (a) Run comparisons to DHT11 connected to Flipper Zero in direct sunlight, in shade, and inside and see if a static correction variable solution could work.
-1. (b) Rewrite code for an external BME280 sensor instead of the onboard one.
+1. (a) Run comparisons to DHT11 connected to Flipper Zero in direct sunlight, in shade, and inside and see if a static correction variable solution could work OR (b) Rewrite code for an external BME280 sensor instead of the onboard one.
 2. Design the actual hat clip mechanism. (v 1.0)
 3. Add heat index feature
 4. Add WiFi data transfer ([resource](https://www.hackster.io/robin-cole/data-logging-zero-to-hero-with-circuitpython-and-mqtt-05af61))
